@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website de Futsal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://example.com/futsal-background.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Futsal</h1>
+    </header>
+    <nav>
+        <a href="#jogadores">Jogadores</a>
+        <a href="#equipas">Equipas</a>
+        <a href="#selecoes">Seleções</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="jogadores" class="content">
+            <h2>Jogadores</h2>
+            <p>Conheça os principais jogadores de futsal.</p>
+        </section>
+        <section id="equipas" class="content">
+            <h2>Equipas</h2>
+            <p>Informações sobre as principais equipas de futsal.</p>
+        </section>
+        <section id="selecoes" class="content">
+            <h2>Seleções</h2>
+            <p>Detalhes sobre as seleções nacionais de futsal.</p>
+        </section>
+        <section id="contato" class="content">
+            <h2>Contato</h2>
+            <p>Envie suas dúvidas e sugestões através do nosso formulário.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Website de Futsal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
